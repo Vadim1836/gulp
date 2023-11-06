@@ -1,0 +1,29 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+
+/* Blocks */
+@import "./blocks/*.scss";
+
+
+main{
+	height: 530px;
+	background-image: url('./../img/amber.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0;
+}
+
+.main input{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+
